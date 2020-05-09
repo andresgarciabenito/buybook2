@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie-edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <title></title>
+  </head>
+
+  <body>
+
+    <div class="container-header">
+      <div class="container-nav1">
+        <div class="navbar1 row">
+            <div class="col-8 justify-content-left">
+              <ul class="nav ml-2 mt-2">
+                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="home"></ion-icon>  Home</a></li>
+                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="information-circle"></ion-icon>  Help</a></li>
+                <li clas="nav-item"><a href="#" class="nav-link text-white">Log In</a></li>
+                <li clas="nav-item"><a href="#" class="nav-link text-white">Sign Up</a></li>
+                <!-- icono -->
+                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="heart"></ion-icon>  Wish List</a></li>
+                <!-- icono -->
+                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="compass"></ion-icon>  Order status</a></li>
+              </ul>
+            </div>
+            <div class="col-4 justify-content-right">
+              <div class="form-group mt-2">
+                  <ul class="nav ml-2 mt-2">
+                    <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="cart"></ion-icon>  Cart (2)</a></li>
+                    <li clas="nav-item"><a href="#" class="nav-link text-white">26,43 €</a></li>
+
+                  <select class="form-control-sm mt-1" id="formlanguages">
+                    <option>English</option>
+                    <option>Español</option>
+                    <option>Català</option>
+                    <option>Portuguese</option>
+                    <option>Français</option>
+                    <option>Italiano</option>
+                  </select>
+
+                  <select class="form-control-sm mt-1" id="formcurrency">
+                    <option>USD</option>
+                    <option>EUR</option>
+                  </select>
+                  </ul>
+              </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container-logo">
+        <div class="logo row">
+          <div class="logo col-3">
+            <img src="img/buybooklogo2.png" class="logoimg mb-2">
+          </div>
+          <div class="searchbar col-9">
+            <nav class="navbar mt-2">
+              <form class="form-inline w-100">
+              <input class="form-control w-75" type="search" placeholder="    Search by author / ISBN / category / keyword   " aria-label="Search">
+              <button class="btn my-2 my-sm-0 text-white" type="submit">Search</button>
+              <button class="btn text-white" for="">advanced search</button>
+              </form>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-banner">
+         <div class="banner row">
+           <div class="banner col-12">
+              <img class="bannerimage" src="img\25off.png" type="img" width="750" height="75">
+           </div>
+         </div>
+      </div>
+
+      <nav class="container-nav2">
+            <div class="navbar2 row">
+              <div class="col-12">
+                <ul class="nav justify-content-start ml-2">
+                  <li class="nav-item"><a href="#" class="nav-link text-dark">Home</a></li>
+                  <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown">Categories</a>
+                    <div class="dropdown-menu">
+                      <a href="#" class="dropdown-item">Arts</a>
+                      <a href="#" class="dropdown-item">Astrology & Horoscope</a>
+                      <a href="#" class="dropdown-item">BestSellers</a>
+                      <a href="#" class="dropdown-item">Biography</a>
+                      <a href="#" class="dropdown-item">Children's Books</a>
+                      <a href="#" class="dropdown-item">Fiction</a>
+                      <a href="#" class="dropdown-item">Food & Drink</a>
+                      <a href="#" class="dropdown-item">History & Archaeology</a>
+                      <a href="#" class="dropdown-item">Photography</a>
+                      <a href="#" class="dropdown-item">Travel</a>
+                      <a href="#" class="dropdown-item">Thriller</a>
+                      <a href="#" class="dropdown-item">Young & Teen</a>
+                    </div>
+                  </li>
+                  <li class="nav-item"><a href="#" class="nav-link text-dark">BestSellers</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-dark">SALE</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-dark">New Releases</a></li>
+                  <li class="nav-item"><a href="#" class="nav-link text-dark">Coming soon</a></li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <div class="container-main">
+
+          <div class="container-main-body row">
+<!-- seccion principal descripcion y catalogo -->
+            <div class="col-sm-8 section">
+              <div class="container-section">
+              <div class="row description">
+                <p class="text-justify p-2 mx-4 mt-3">Welcome to BuyBook.com! We have more than 20 million titles and free delivery worldwide to over 170 countries. We also really, really love books.</p>
+
+                <p class="text-justify p-2 mx-4">Looking for your new favourite book? Browse some of our top categories such as Crime & Thriller, Fiction, Graphic Novels, Food & Drink, Crafts & Hobbies, Art & Photography, Biography.</p>
+              </div>
+
+              <div class="row catalog justify-content-center m-1">
+<!-- Arts -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Arts / Painting / Neo Rauch</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9783836535632.jpg" type="img"><br>
+                    <p>9783836535632 <br>
+                    Neo Rauch <br> <br>
+                    <abbr title="">Wolfgang Büscher</abbr><br>
+                    English, German <br>
+                    49,99 € (euros) <br>
+                    2013 <br>
+                    464 pages <br></p>
+                  <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9783941847354.jpg" type="img"><br>
+                    <p>9783941847354 <br>
+                    Neo Rauch at Bötzow <br> <br>
+                    <abbr title="">Rudij Bergmann</abbr><br>
+                    English, German <br>
+                    30,04 € (euros) <br>
+                    2015 <br>
+                    96 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9783775743815.jpg" type="img"><br>
+                    <p>9783775743815 <br>
+                    Neo Rauch - Dromos <br> <br>
+                    <abbr title="">Michael Glover</abbr><br>
+                    English <br>
+                    16,00 € (euros)<br>
+                    2019 <br>
+                    144 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788360713518.jpg" type="img"><br>
+                    <p>9788360713518 <br>
+                    Mit Realizmu <br> <br>
+                    <abbr title="">Neo Rauch</abbr><br>
+                    English,Polish<br>
+                    32,93 € (euros) <br>
+                    2011 <br>
+                    85 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Astrology & Horoscope-->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Astrology & Horoscope</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781611805116.jpg" type="img"><br>
+                    9781611805116 <br>
+                    <p>The Stars Within You<br> <br>
+                    <abbr title="">Juliana McCarthy - Alejandro Cardenas</abbr> <br>
+                    English <br>
+                    19,99 € (euros) <br>
+                    2018 <br>
+                    288 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781578636563.jpg" type="img"><br>
+                    <p>9781578636563 <br>
+                    Astrology for Real Life<br> <br>
+                    <abbr title="">Theresa Reed</abbr>  <br><br>
+                    English<br>
+                    16,53 € (euros) <br>
+                    2019 <br>
+                    285 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781787132245.jpg" type="img"><br>
+                    <p>9781787132245 <br>
+                    Star Power: A Simple Guide to Astrology <br> <br>
+                    <abbr title="">Vanessa Montgomery</abbr> <br>
+                    English <br>
+                    19,99 € (euros)<br>
+                    2018 <br>
+                    192 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781507207826.jpg" type="img"><br>
+                    <p>9781507207826<br>
+                    Astrology for Happiness and Success  <br> <br>
+                    <abbr title="">Mecca Woods</abbr> <br>
+                    English<br>
+                    13,22 € (euros) <br>
+                    2018 <br>
+                    224 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- BestSellers -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">BestSellers</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781529029581.jpg" type="img"><br>
+                    <p>9781529029581 <br>
+                    Before the Coffee Gets Cold <br> <br>
+                    <abbr title="">Toshikazu Kawaguchi</abbr> <br>
+                    English <br>
+                    11,88 € (euros) <br>
+                    2019 <br>
+                    224 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780571333134.jpg" type="img"><br>
+                    <p>9780571333134  <br>
+                    Conversations with friends <br> <br>
+                    <abbr title="">Sally Rooney</abbr> <br>
+                    English <br>
+                    20,04 € (euros) <br>
+                    2018 <br>
+                    336 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781724449139.jpg" type="img"><br>
+                    <p>9781724449139  <br>
+                    Crossfit Guide : The Ultimate Guide <br> <br>
+                    <abbr title="">Marco Caspani</abbr> <br>
+                    English <br>
+                    19,09 € (euros) <br>
+                    2018 <br>
+                    114 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788490653500.jpg" type="img"><br>
+                    <p>9788490653500  <br>
+                    Pequeños fuegos por todas partes <br> <br>
+                    <abbr title="">Celeste Ng</abbr> <br>
+                    Spanish <br>
+                    19,50 € (euros) <br>
+                    2017 <br>
+                    360 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Biography -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Biography / Patti Smith</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788499894454.jpg" type="img"><br>
+                    <p>9788499894454 <br>
+                    Eramos unos niños <br> <br>
+                    <abbr title="">Patti Smith</abbr> <br>
+                    Spanish <br>
+                    16,90 € (euros) <br>
+                    2012 <br>
+                    304 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788466342223.jpg" type="img"><br>
+                    <p>9788466342223 <br>
+                    M Train <br> <br>
+                    <abbr title="">Patti Smith</abbr> <br>
+                    Spanish <br>
+                    20,90 € (euros) <br>
+                    2018 <br>
+                    288 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788426407740.jpg" type="img"><br>
+                    <p>9788426407740 <br>
+                    El año del mono <br> <br>
+                    <abbr title="">Patti Smith</abbr> <br>
+                    Spanish <br>
+                    17,95 € (euros) <br>
+                    2020 <br>
+                    224 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788426406248.jpg" type="img"><br>
+                    <p>9788426406248 <br>
+                    Augurios de Inocencia <br> <br>
+                    <abbr title="">Patti Smith</abbr> <br>
+                    Spanish <br>
+                    13,20 € (euros) <br>
+                    2019 <br>
+                    200 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Children's Books -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Children's Books</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780679886525.jpg" type="img"><br>
+                    <p>9780679886525 <br>
+                    Big Book of Science and Nature <br>
+                    <abbr title="">Stan Berenstain</abbr> <br>
+                    English <br>
+                    33,13 € (euros) <br>
+                    1997 <br>
+                    192 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781406338539.jpg" type="img"><br>
+                    <p>9781406338539 <br>
+                    I want my hat back<br> <br>
+                    <abbr title="">Jon Klassen</abbr> <br>
+                    English <br>
+                    12,33 € (euros) <br>
+                    2012 <br>
+                    40 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780307168030.jpg" type="img"><br>
+                    <p>9780307168030 <br>
+                    Busy, Busy Town<br> <br>
+                    <abbr title="">Richard Scarry</abbr> <br>
+                    English <br>
+                    15,99 € (euros) <br>
+                    2000 <br>
+                    16 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780008158286.jpg" type="img"><br>
+                    <p>9780008158286 <br>
+                    Pax <br> <br>
+                    <abbr title="">Sara Pennypacker</abbr> <br>
+                    English <br>
+                    16,00 € (euros) <br>
+                    2017 <br>
+                    288 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Fiction -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Fiction / Harry Potter</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788498382662.jpg" type="img"><br>
+                    <p>9788498382662 <br>
+                    Harry Potter y la Piedra Filosofal <br> <br>
+                    <abbr title="">J.K. Rowling</abbr> <br>
+                    Spanish <br>
+                    14,25 € (euros) <br>
+                    1999 <br>
+                    264 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788498382679.jpg" type="img"><br>
+                    <p>9788498382679 <br>
+                    Harry Potter y la Cámara Secreta <br> <br>
+                    <abbr title="">J.K. Rowling</abbr> <br>
+                    Spanish <br>
+                    15,20 € (euros) <br>
+                    2010 <br>
+                    288 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788498383430.jpg" type="img"><br>
+                    <p>9788498383430 <br>
+                    Harry Potter y el Prisionero de Azkaban <br> <br>
+                    <abbr title="">J.K. Rowling</abbr> <br>
+                    Spanish <br>
+                    14,25 € (euros) <br>
+                    2011 <br>
+                    360 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788418173110.jpg" type="img"><br>
+                    <p>9788418173110 <br>
+                    Harry Potter y el Cáliz de Fuego <br> <br>
+                    <abbr title="">J.K. Rowling</abbr> <br>
+                    Spanish <br>
+                    12,35 € (euros) <br>
+                    2020 <br>
+                    272 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Food & Drink -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Food & Drink</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781784722647.jpg" type="img"><br>
+                    <p>9781784722647 <br>
+                    How to eat a peach<br> <br>
+                    <abbr title="">Diana Henry</abbr><br>
+                    English <br>
+                    30,13 € (euros) <br>
+                    2018 <br>
+                    256 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781911621294.jpg" type="img"><br>
+                    <p>9781911621294 <br>
+                    Italian Food <br> <br>
+                    <abbr title="">Elizabeth David</abbr><br>
+                    English <br>
+                    16,39 € (euros) <br>
+                    2019 <br>
+                    240 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780761168119.jpg" type="img"><br>
+                    <p>9780761168119 <br>
+                    Beer Bible <br> <br>
+                    <abbr title="">Jeff Alworth</abbr><br>
+                    English <br>
+                    8,95 € (euros) <br>
+                    2015 <br>
+                    656 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781549726040.jpg" type="img"><br>
+                    <p>9781549726040 <br>
+                    I know Coffee <br><br>
+                    <abbr title="">Jessica Simms</abbr><br>
+                    English <br>
+                    13,11 € (euros) <br>
+                    2017 <br>
+                    247 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- History & Archaeology -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">History & Archaeology</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781250030115.jpg" type="img"><br>
+                    <p>9781250030115 <br>
+                    A History of Ancient Egypt<br> <br>
+                    <abbr title="">John Romer</abbr><br>
+                    English <br>
+                    37,91 € (euros) <br>
+                    2013 <br>
+                    512 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788432311451.jpg" type="img"><br>
+                    <p>9788432311451 <br>
+                    Las venas abiertas de América Latina <br> <br>
+                    <abbr title="">Eduardo Galeano</abbr><br>
+                    Spanish <br>
+                    54,14 € (euros) <br>
+                    2009 <br>
+                    530 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9789384082185.jpg" type="img"><br>
+                    <p>9789384082185 <br>
+                    Indo-Persian Historiography<br><br>
+                    <abbr title="">Iqtidar Husain Siddiqui</abbr><br>
+                    English <br>
+                    26,11 € (euros) <br>
+                    2016 <br>
+                    328 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781538137840.jpg" type="img"><br>
+                    <p>9781538137840 <br>
+                    The Big Trip <br> <br> <br>
+                    <abbr title="">John W. Sherman</abbr><br>
+                    English <br>
+                    31,10 € (euros) <br>
+                    2020<br>
+                    270 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Photography -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Photography</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781579656478.jpg" type="img"><br>
+                    <p>9781579656478<br>
+                    John Derian Picture Book<br> <br>
+                    <abbr title="">John Derian</abbr><br>
+                    English <br>
+                    69,49 € (euros) <br>
+                    2016 <br>
+                    368 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9783836538725.jpg" type="img"><br>
+                    <p>9783836538725 <br>
+                    Genesis<br> <br> <br>
+                    <abbr title="">Sebastião Salgado</abbr><br>
+                    English <br>
+                    47,49 € (euros) <br>
+                    2014 <br>
+                    520 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780300172379.jpg" type="img"><br>
+                    <p>9780300172379 <br>
+                    Ezra Stoller, Photographer <br> <br>
+                    <abbr title="">Nina Rappaport</abbr><br>
+                    English <br>
+                    25,00 € (euros) <br>
+                    2012<br>
+                    288 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781846149429.jpg" type="img"><br>
+                    <p>9781846149429 <br>
+                    <br>Really Good Dog Photography <br>
+                    <abbr title="">Hoxton Mini Press </abbr><br>
+                    English <br>
+                    31,00 € (euros) <br>
+                    2017 <br>
+                    176 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Travel -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Travel</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781787014176.jpg" type="img"><br>
+                    <p>9781787014176 <br>
+                    Epic hikes of the World (Lonely Planet)<br> <br>
+                    <abbr title="">Oliver Berry</abbr><br>
+                    English <br>
+                    35,19 € (euros) <br>
+                    2018 <br>
+                    328 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781787011335.jpg" type="img"><br>
+                    <p>9781787011335 <br>
+                    The solo travel handbook<br> <br>
+                    <abbr title="">Lonely Planet</abbr><br>
+                    English <br>
+                    14,04 € (euros) <br>
+                    2018 <br>
+                    168 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781786578648.jpg" type="img"><br>
+                    <p>9781786578648 <br>
+                    Epic drives of the world (Lonely Planet)<br> <br>
+                    <abbr title="">Oliver Berry</abbr><br>
+                    English <br>
+                    22,74 € (euros) <br>
+                    2017 <br>
+                    328 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781788681292.jpg" type="img"><br>
+                    <p>9781788681292 <br>
+                    The Big Trip <br> <br> <br>
+                    <abbr title="">Lonely Planet</abbr><br>
+                    English <br>
+                    25,57 € (euros) <br>
+                    2019<br>
+                    352 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Thriller -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Thriller / Mariana Enriquez</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788433998064.jpg" type="img"><br>
+                    <p>9788433998064 <br>
+                    Las cosas que perdimos en el fuego <br>
+                    <abbr title="">Mariana Enriquez</abbr> <br>
+                    Spanish <br>
+                    16,00 € (euros) <br>
+                    2016 <br>
+                    200 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788433998248.jpg" type="img"><br>
+                    <p>9788433937735 <br>
+                    Los peligros de fumar en la cama <br>
+                    <abbr title="">Mariana Enriquez</abbr> <br>
+                    Spanish <br>
+                    16,05 € (euros) <br>
+                    2018 <br>
+                    208 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9788433998859.jpg" type="img"><br>
+                    <p>9788433998859 <br>
+                    Nuestra parte de noche <br> <br>
+                    <abbr title="">Mariana Enriquez</abbr> <br>
+                    Spanish <br>
+                    21,75 € (euros) <br>
+                    2019 <br>
+                    680 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780451495112.jpg" type="img"><br>
+                    <p>9780451495112 <br>
+                    Things we lost in the fire <br>  <br>
+                    <abbr title="">Mariana Enriquez</abbr> <br>
+                    English <br>
+                    21,14 € (euros) <br>
+                    2017 <br>
+                    200 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+<!-- Young & Teen -->
+                <div class="category-title">
+                  <h4 class="text-white mt-3 mx-1">Young & Teen</h4>
+                </div>
+                <div class="row mt-3 mx-1 py-1 px-1">
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781250059314.jpg" type="img"><br>
+                    <p>9781250059314 <br>
+                    My True Love Gave to Me <br>
+                    <abbr title="">Stephanie Perkins</abbr> <br>
+                    English <br>
+                    12,78 € (euros) <br>
+                    2016 <br>
+                    336 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781444952773.jpg" type="img"><br>
+                    <p>9781444952773 <br>
+                    Heartstopper Volume Three <br>
+                    <abbr title="">Alice Oseman</abbr> <br>
+                    English <br>
+                    14,49 € (euros) <br>
+                    2020 <br>
+                    384 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9780008244125.jpg" type="img"><br>
+                    <p>9780008244125 <br>
+                    Loveless <br> <br>
+                    <abbr title="">Alice Oseman</abbr> <br>
+                    Spanish <br>
+                    11,01 € (euros) <br>
+                    2020 <br>
+                    320 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                  <div class="book-item col-3">
+                    <img class="imagebook" source src="img\9781409157250.jpg" type="img"><br>
+                    <p>9781409157250 <br>
+                    Eleanor & Park <br> <br>
+                    <abbr title="">Rainbow Rowell</abbr> <br>
+                    English <br>
+                    16,45 € (euros) <br>
+                    2014 <br>
+                    336 pages <br></p>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                  </div>
+                </div>
+              </div>
+              </div>
+
+            </div><!-- /section-->
+
+            <div class="col-sm-4 sidebar">
+              <div class="sidebar-module">
+                <h5>Covid Updates</h5>
+                <img src="img\covid19updates.png" class="imageaside">
+              </div>
+
+              <div class="sidebar-module">
+                <h5>At Home</h5>
+                <img src="img\AtHome.png" class="imageaside">
+              </div>
+
+              <div class="sidebar-module">
+                <h5>Astrology (New!)</h5>
+                <img src="img\astrology.png" class="imageaside">
+              </div>
+
+              <div class="sidebar-module">
+                <h5>Travel Books</h5>
+                <img src="img\travelbooks.png" class="imageaside">
+              </div>
+
+              <div class="sidebar-module">
+                <h5>Follow Us</h5>
+                <img src="img\socialmedia.png" class="imageaside">
+              </div>
+
+
+            </div><!-- /sidebar -->
+
+          </div><!-- /.row -->
+
+    </div><!-- /container-main -->
+
+<footer>
+  <div class="container-footer-all">
+    <div class="container-body">
+        <div class="footer-column1 w-25">
+          <h6>BUYBOOK.COM</h6>
+          <ul>
+            <li>About us</li>
+            <li>Contact Us</li>
+            <li>History</li>
+            <li>Purpose & Values</li>
+            <li>Join us</li>
+          </ul>
+        </div>
+
+        <div class="footer-column2 w-25">
+          <h6>HELP</h6>
+            <ul>
+            <li>Sign In - Manage Account</li>
+            <li>Sign Up</li>
+            <li>Help Center - FAQs</li>
+            <li>Order Status</li>
+            <li>Privacy Policy & Cookies</li>
+            </ul>
+        </div>
+
+        <div class="footer-column3 w-25">
+          <h6>FOLLOW US</h6>
+            <div class="row my-3">
+              <img src="img\insta.png" alt="">
+              <label for="">Instagram @buybook</label>
+            </div>
+
+            <div class="row my-3">
+              <img src="img\face.png" alt="">
+              <label for="">Facebook "Buy Book"</label>
+            </div>
+
+            <div class="row my-3">
+              <img src="img\twit.png" alt="" type="img">
+              <label for="">Twitter @buybook</label>
+            </div>
+        </div>
+
+        <div class="footer-column4 w-25">
+          <h6>SUBSCRIBE</h6>
+          <div class="form-inline w-100 my-3">
+            <input class="form-control w-75 " type="search" placeholder="Email address" aria-label="Submit"><button class="btn text-white btnfooter w-25" type="submit">JOIN</button>
+          </div>
+          <div>
+          <h6>PAYMENT METHODS</h6>
+          <img src="img\paymentmethod2.png">
+          </div>
+        </div>
+
+
+    </div>
+
+    <div class="container-footer">
+      <div class="copyright">
+        Copyright © 2020 BuyBook.com All rights reserved | <a href="#">andresgarciabenito</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+    <script src="js/jquery-3.4.1.slim.min.js" charset="utf-8"></script>
+    <script src="js/popper.min.js" charset="utf-8"></script>
+    <script src="js/bootstrap.min.js" charset="utf-8"></script>
+  </body>
+</html>

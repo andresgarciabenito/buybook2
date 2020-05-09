@@ -1,0 +1,153 @@
+*{
+  font-family: 'Rubik', sans-serif;
+}
+
+.navbar1{
+  background:#806E8E;
+}
+
+.navbar1 div ul li:hover{
+  background-color: #a699b0;
+}
+.dropdown-menu{
+  background: #ffd965;
+}
+
+.navbar2 ul li div a:hover{
+  background-color: #CCAD50;
+}
+
+.navbar2 ul li:hover{
+  background-color: #CCAD50;
+}
+
+.container-header{
+  background: #806E8E;
+}
+.navbar2{
+  background: #ffd965;
+}
+
+.logo img{
+  width:300px;
+  height:75px;
+  margin-bottom:5px;
+}
+
+.btn:hover{
+  background:#a699b0;
+}
+
+.container-banner{
+ background: #ff927c;
+}
+
+.description{
+  background: #a5d2a3;
+  font-size: 16px;
+}
+.catalog{
+  width: 100%;
+  background: #a699b0;
+}
+.section{
+  background: #a699b0;
+}
+.sidebar-module{
+  margin-top: 15px;
+}
+.book-item p{
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+.imagebook{
+  width: 167px;
+  height: 255px;
+}
+.addtocart{
+  width: 130px;
+  height: 47px;
+}
+.imageaside{
+  width: 250px;
+  height: 209px;
+}
+
+.sidebar{
+  margin-top:15px;
+  padding-left:75px;
+  background: #ffffff;
+}
+
+.container-footer-all{
+  width:100%;
+  max-width: auto;
+  padding: 15px;
+  background: #a5d2a3;
+}
+.container-body{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  display:flex;
+  justify-content: space-between;
+}
+
+.footer-column1 .footer-column2 .footer-column3 .footer-column4{
+  max-width: 200px;
+}
+
+.footer-column3 .row img{
+  width:36px;
+  height:36px;
+}
+
+.footer-column3 .row label{
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.footer-column4 img{
+  width: 200px;
+  height: 56px;
+}
+
+.container-footer{
+  width: 100%;
+  background-color: #94bd92;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-footer a{
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer-column1 ul{
+  padding: 7px;
+  padding-inline-start: 1px;
+  list-style: none;
+}
+
+.footer-column2 ul{
+  padding: 7px;
+  padding-inline-start: 1px;
+  list-style: none;
+}
+
+.footer-column1 li{
+  padding: 3px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.footer-column2 li{
+  padding: 3px;
+  list-style: none;
+  font-size: 15px;
+}
+
+.btnfooter:hover{
+  background: #84a882;
+}
