@@ -14,21 +14,18 @@
   <body>
 
     <div class="container-header">
-      <div class="container-nav1">
+      <div class="container-nav1 container-flex">
         <div class="navbar1 row">
-            <div class="col-8 justify-content-left">
+            <div class="col-xs-12 col-sm-12 col-md-7 col-lg-8 col-lg-8 justify-content-left">
               <ul class="nav ml-2 mt-2">
-                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="home"></ion-icon>  Home</a></li>
-                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="information-circle"></ion-icon>  Help</a></li>
-                <li clas="nav-item"><a href="#" class="nav-link text-white">Log In</a></li>
-                <li clas="nav-item"><a href="#" class="nav-link text-white">Sign Up</a></li>
-                <!-- icono -->
-                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="heart"></ion-icon>  Wish List</a></li>
-                <!-- icono -->
-                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="compass"></ion-icon>  Order status</a></li>
+                <li clas="nav-item"><a href="index.html" class="nav-link text-white"><ion-icon name="home"></ion-icon> Home</a></li>
+                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="information-circle"></ion-icon> Help</a></li>
+                <li clas="nav-item"><a href="login.html" class="nav-link text-white">Log In/Sign Up</a></li>
+                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="heart"></ion-icon> Wish List</a></li>
+                <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="compass"></ion-icon> Orders</a></li>
               </ul>
             </div>
-            <div class="col-4 justify-content-right">
+            <div class="col-xs-12 col-sm-12 col-md-5 col-lg-4 col-lg-4 justify-content-right">
               <div class="form-group mt-2">
                   <ul class="nav ml-2 mt-2">
                     <li clas="nav-item"><a href="#" class="nav-link text-white"><ion-icon name="cart"></ion-icon>  Cart (2)</a></li>
@@ -55,10 +52,10 @@
 
       <div class="container-logo">
         <div class="logo row">
-          <div class="logo col-3">
+          <div class="logo col-xs-3 col-sm-3 col-md-3 col-lg-3 col-xl-3">
             <img src="img/buybooklogo2.png" class="logoimg mb-2">
           </div>
-          <div class="searchbar col-9">
+          <div class="searchbar col-xs-9 col-sm-9 col-md-9 col-lg-9 col-xl-9">
             <nav class="navbar mt-2">
               <form class="form-inline w-100">
               <input class="form-control w-75" type="search" placeholder="    Search by author / ISBN / category / keyword   " aria-label="Search">
@@ -73,7 +70,7 @@
       <div class="container-banner">
          <div class="banner row">
            <div class="banner col-12">
-              <img class="bannerimage" src="img\25off.png" type="img" width="750" height="75">
+              <img class="bannerimage ml-4" src="img\25off.png" type="img" width="600" height="60">
            </div>
          </div>
       </div>
@@ -82,7 +79,7 @@
             <div class="navbar2 row">
               <div class="col-12">
                 <ul class="nav justify-content-start ml-2">
-                  <li class="nav-item"><a href="#" class="nav-link text-dark">Home</a></li>
+                  <li class="nav-item"><a href="index.html" class="nav-link text-dark">Home</a></li>
                   <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle text-dark" data-toggle="dropdown">Categories</a>
                     <div class="dropdown-menu">
                       <a href="#" class="dropdown-item">Arts</a>
@@ -114,7 +111,7 @@
 
           <div class="container-main-body row">
 <!-- seccion principal descripcion y catalogo -->
-            <div class="col-sm-8 section">
+            <div class="col-md-8 section">
               <div class="container-section">
               <div class="row description">
                 <p class="text-justify p-2 mx-4 mt-3">Welcome to BuyBook.com! We have more than 20 million titles and free delivery worldwide to over 170 countries. We also really, really love books.</p>
@@ -123,26 +120,27 @@
               </div>
 
               <div class="row catalog justify-content-center m-1">
-<!-- Arts -->
+                <!-- Arts -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Arts / Painting / Neo Rauch</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9783836535632.jpg" type="img"><br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9783836535632.html"><img class="imagebook" source src="img\9783836535632.jpg" type="img"><br></a>
                     <p>9783836535632 <br>
-                    Neo Rauch <br> <br>
+                    Neo Rauch <br> <br> <br>
                     <abbr title="">Wolfgang Büscher</abbr><br>
                     English, German <br>
                     49,99 € (euros) <br>
                     2013 <br>
                     464 pages <br></p>
-                  <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
+                    <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9783941847354.jpg" type="img"><br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9783941847354.html">
+                    <img class="imagebook" source src="img\9783941847354.jpg" type="img"><br></a>
                     <p>9783941847354 <br>
-                    Neo Rauch at Bötzow <br> <br>
+                    Neo Rauch at Bötzow <br> <br> <br>
                     <abbr title="">Rudij Bergmann</abbr><br>
                     English, German <br>
                     30,04 € (euros) <br>
@@ -150,21 +148,23 @@
                     96 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9783775743815.jpg" type="img"><br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9783775743815.html">
+                    <img class="imagebook" source src="img\9783775743815.jpg" type="img"></a><br>
                     <p>9783775743815 <br>
-                    Neo Rauch - Dromos <br> <br>
-                    <abbr title="">Michael Glover</abbr><br>
+                    Neo Rauch : Dromos Painting 1993-2017 <br> <br>
+                    <abbr title="">Hatje Cantz</abbr><br>
                     English <br>
-                    16,00 € (euros)<br>
+                    29,13 € (euros)<br>
                     2019 <br>
                     144 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788360713518.jpg" type="img"><br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788360713518.html">
+                    <img class="imagebook" source src="img\9788360713518.jpg" type="img"></a><br>
                     <p>9788360713518 <br>
-                    Mit Realizmu <br> <br>
+                    Neo Rauch: The Myth of Realism <br> <br>
                     <abbr title="">Neo Rauch</abbr><br>
                     English,Polish<br>
                     32,93 € (euros) <br>
@@ -173,15 +173,16 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Astrology & Horoscope-->
+                <!-- Astrology & Horoscope-->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Astrology & Horoscope</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781611805116.jpg" type="img"><br>
-                    9781611805116 <br>
-                    <p>The Stars Within You<br> <br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781611805116.html">
+                    <img class="imagebook" source src="img\9781611805116.jpg" type="img"></a><br>
+                    <p>9781611805116 <br>
+                    The Stars Within You<br> <br>
                     <abbr title="">Juliana McCarthy - Alejandro Cardenas</abbr> <br>
                     English <br>
                     19,99 € (euros) <br>
@@ -189,8 +190,9 @@
                     288 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781578636563.jpg" type="img"><br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781578636563.html">
+                    <img class="imagebook" source src="img\9781578636563.jpg" type="img"></a><br>
                     <p>9781578636563 <br>
                     Astrology for Real Life<br> <br>
                     <abbr title="">Theresa Reed</abbr>  <br><br>
@@ -200,8 +202,9 @@
                     285 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781787132245.jpg" type="img"><br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781787132245.html">
+                    <img class="imagebook" source src="img\9781787132245.jpg" type="img"></a><br>
                     <p>9781787132245 <br>
                     Star Power: A Simple Guide to Astrology <br> <br>
                     <abbr title="">Vanessa Montgomery</abbr> <br>
@@ -211,8 +214,9 @@
                     192 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781507207826.jpg" type="img"><br>
+                  <div class="book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781507207826.html">
+                    <img class="imagebook" source src="img\9781507207826.jpg" type="img"></a><br>
                     <p>9781507207826<br>
                     Astrology for Happiness and Success  <br> <br>
                     <abbr title="">Mecca Woods</abbr> <br>
@@ -223,13 +227,14 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- BestSellers -->
+                <!-- BestSellers -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">BestSellers</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781529029581.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781529029581.html">
+                    <img class="imagebook" source src="img\9781529029581.jpg" type="img"></a><br>
                     <p>9781529029581 <br>
                     Before the Coffee Gets Cold <br> <br>
                     <abbr title="">Toshikazu Kawaguchi</abbr> <br>
@@ -239,8 +244,9 @@
                     224 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780571333134.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780571333134.html">
+                    <img class="imagebook" source src="img\9780571333134.jpg" type="img"></a><br>
                     <p>9780571333134  <br>
                     Conversations with friends <br> <br>
                     <abbr title="">Sally Rooney</abbr> <br>
@@ -250,8 +256,9 @@
                     336 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781724449139.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781724449139.html">
+                    <img class="imagebook" source src="img\9781724449139.jpg" type="img"></a><br>
                     <p>9781724449139  <br>
                     Crossfit Guide : The Ultimate Guide <br> <br>
                     <abbr title="">Marco Caspani</abbr> <br>
@@ -261,8 +268,9 @@
                     114 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788490653500.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788490653500.html">
+                    <img class="imagebook" source src="img\9788490653500.jpg" type="img"></a><br>
                     <p>9788490653500  <br>
                     Pequeños fuegos por todas partes <br> <br>
                     <abbr title="">Celeste Ng</abbr> <br>
@@ -273,13 +281,14 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Biography -->
+                <!-- Biography -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Biography / Patti Smith</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788499894454.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788499894454.html">
+                    <img class="imagebook" source src="img\9788499894454.jpg" type="img"></a><br>
                     <p>9788499894454 <br>
                     Eramos unos niños <br> <br>
                     <abbr title="">Patti Smith</abbr> <br>
@@ -289,8 +298,9 @@
                     304 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788466342223.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788466342223.html">
+                    <img class="imagebook" source src="img\9788466342223.jpg" type="img"></a><br>
                     <p>9788466342223 <br>
                     M Train <br> <br>
                     <abbr title="">Patti Smith</abbr> <br>
@@ -300,8 +310,9 @@
                     288 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788426407740.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788426407740.html">
+                    <img class="imagebook" source src="img\9788426407740.jpg" type="img"></a><br>
                     <p>9788426407740 <br>
                     El año del mono <br> <br>
                     <abbr title="">Patti Smith</abbr> <br>
@@ -311,8 +322,9 @@
                     224 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788426406248.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788426406248.html">
+                    <img class="imagebook" source src="img\9788426406248.jpg" type="img"></a><br>
                     <p>9788426406248 <br>
                     Augurios de Inocencia <br> <br>
                     <abbr title="">Patti Smith</abbr> <br>
@@ -323,24 +335,26 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Children's Books -->
+                <!-- Children's Books -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Children's Books</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780679886525.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780679886525.html">
+                    <img class="imagebook" source src="img\9780679886525.jpg" type="img"></a><br>
                     <p>9780679886525 <br>
                     Big Book of Science and Nature <br>
                     <abbr title="">Stan Berenstain</abbr> <br>
                     English <br>
                     33,13 € (euros) <br>
-                    1997 <br>
+                    1999 <br>
                     192 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781406338539.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781406338539.html">
+                    <img class="imagebook" source src="img\9781406338539.jpg" type="img"></a><br>
                     <p>9781406338539 <br>
                     I want my hat back<br> <br>
                     <abbr title="">Jon Klassen</abbr> <br>
@@ -350,8 +364,9 @@
                     40 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780307168030.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780307168030.html">
+                    <img class="imagebook" source src="img\9780307168030.jpg" type="img"></a><br>
                     <p>9780307168030 <br>
                     Busy, Busy Town<br> <br>
                     <abbr title="">Richard Scarry</abbr> <br>
@@ -361,8 +376,9 @@
                     16 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780008158286.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780008158286.html">
+                    <img class="imagebook" source src="img\9780008158286.jpg" type="img"></a><br>
                     <p>9780008158286 <br>
                     Pax <br> <br>
                     <abbr title="">Sara Pennypacker</abbr> <br>
@@ -373,13 +389,14 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Fiction -->
+                <!-- Fiction -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Fiction / Harry Potter</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788498382662.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788498382662.html">
+                    <img class="imagebook" source src="img\9788498382662.jpg" type="img"></a><br>
                     <p>9788498382662 <br>
                     Harry Potter y la Piedra Filosofal <br> <br>
                     <abbr title="">J.K. Rowling</abbr> <br>
@@ -389,8 +406,9 @@
                     264 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788498382679.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788498382679.html">
+                    <img class="imagebook" source src="img\9788498382679.jpg" type="img"></a><br>
                     <p>9788498382679 <br>
                     Harry Potter y la Cámara Secreta <br> <br>
                     <abbr title="">J.K. Rowling</abbr> <br>
@@ -400,8 +418,9 @@
                     288 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788498383430.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788498383430.html">
+                    <img class="imagebook" source src="img\9788498383430.jpg" type="img"></a><br>
                     <p>9788498383430 <br>
                     Harry Potter y el Prisionero de Azkaban <br> <br>
                     <abbr title="">J.K. Rowling</abbr> <br>
@@ -411,8 +430,9 @@
                     360 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788418173110.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788418173110.html">
+                    <img class="imagebook" source src="img\9788418173110.jpg" type="img"></a><br>
                     <p>9788418173110 <br>
                     Harry Potter y el Cáliz de Fuego <br> <br>
                     <abbr title="">J.K. Rowling</abbr> <br>
@@ -423,13 +443,14 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Food & Drink -->
+                <!-- Food & Drink -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Food & Drink</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781784722647.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781784722647.html">
+                    <img class="imagebook" source src="img\9781784722647.jpg" type="img"></a><br>
                     <p>9781784722647 <br>
                     How to eat a peach<br> <br>
                     <abbr title="">Diana Henry</abbr><br>
@@ -439,8 +460,9 @@
                     256 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781911621294.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781911621294.html">
+                    <img class="imagebook" source src="img\9781911621294.jpg" type="img"></a><br>
                     <p>9781911621294 <br>
                     Italian Food <br> <br>
                     <abbr title="">Elizabeth David</abbr><br>
@@ -450,36 +472,39 @@
                     240 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780761168119.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780761168119.html">
+                    <img class="imagebook" source src="img\9780761168119.jpg" type="img"></a><br>
                     <p>9780761168119 <br>
                     Beer Bible <br> <br>
                     <abbr title="">Jeff Alworth</abbr><br>
                     English <br>
-                    8,95 € (euros) <br>
+                    18,95 € (euros) <br>
                     2015 <br>
                     656 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781549726040.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781549726040.html">
+                    <img class="imagebook" source src="img\9781549726040.jpg" type="img"></a><br>
                     <p>9781549726040 <br>
                     I know Coffee <br><br>
                     <abbr title="">Jessica Simms</abbr><br>
                     English <br>
-                    13,11 € (euros) <br>
+                    17,77 € (euros) <br>
                     2017 <br>
                     247 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- History & Archaeology -->
+                <!-- History & Archaeology -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">History & Archaeology</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781250030115.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781250030115.html">
+                    <img class="imagebook" source src="img\9781250030115.jpg" type="img"></a><br>
                     <p>9781250030115 <br>
                     A History of Ancient Egypt<br> <br>
                     <abbr title="">John Romer</abbr><br>
@@ -489,8 +514,9 @@
                     512 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788432311451.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788432311451.html">
+                    <img class="imagebook" source src="img\9788432311451.jpg" type="img"></a><br>
                     <p>9788432311451 <br>
                     Las venas abiertas de América Latina <br> <br>
                     <abbr title="">Eduardo Galeano</abbr><br>
@@ -500,8 +526,9 @@
                     530 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9789384082185.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9789384082185.html">
+                    <img class="imagebook" source src="img\9789384082185.jpg" type="img"></a><br>
                     <p>9789384082185 <br>
                     Indo-Persian Historiography<br><br>
                     <abbr title="">Iqtidar Husain Siddiqui</abbr><br>
@@ -511,10 +538,11 @@
                     328 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781538137840.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781538137840.html">
+                    <img class="imagebook" source src="img\9781538137840.jpg" type="img"></a><br>
                     <p>9781538137840 <br>
-                    The Big Trip <br> <br> <br>
+                    Mexico: A Concise Illustrated History <br> <br>
                     <abbr title="">John W. Sherman</abbr><br>
                     English <br>
                     31,10 € (euros) <br>
@@ -523,13 +551,14 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Photography -->
+                <!-- Photography -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Photography</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781579656478.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781579656478.html">
+                    <img class="imagebook" source src="img\9781579656478.jpg" type="img"></a><br>
                     <p>9781579656478<br>
                     John Derian Picture Book<br> <br>
                     <abbr title="">John Derian</abbr><br>
@@ -539,47 +568,51 @@
                     368 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9783836538725.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9783836538725.html">
+                    <img class="imagebook" source src="img\9783836538725.jpg" type="img"></a><br>
                     <p>9783836538725 <br>
                     Genesis<br> <br> <br>
                     <abbr title="">Sebastião Salgado</abbr><br>
                     English <br>
-                    47,49 € (euros) <br>
+                    55,44 € (euros) <br>
                     2014 <br>
                     520 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780300172379.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780300172379.html">
+                    <img class="imagebook" source src="img\9780300172379.jpg" type="img"></a><br>
                     <p>9780300172379 <br>
                     Ezra Stoller, Photographer <br> <br>
                     <abbr title="">Nina Rappaport</abbr><br>
                     English <br>
-                    25,00 € (euros) <br>
+                    48,95 € (euros) <br>
                     2012<br>
                     288 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781846149429.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781846149429.html">
+                    <img class="imagebook" source src="img\9781846149429.jpg" type="img"></a><br>
                     <p>9781846149429 <br>
                     <br>Really Good Dog Photography <br>
                     <abbr title="">Hoxton Mini Press </abbr><br>
                     English <br>
-                    31,00 € (euros) <br>
+                    32,43 € (euros) <br>
                     2017 <br>
                     176 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Travel -->
+                <!-- Travel -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Travel</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781787014176.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781787014176.html">
+                    <img class="imagebook" source src="img\9781787014176.jpg" type="img"></a><br>
                     <p>9781787014176 <br>
                     Epic hikes of the World (Lonely Planet)<br> <br>
                     <abbr title="">Oliver Berry</abbr><br>
@@ -589,10 +622,11 @@
                     328 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781787011335.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781787011335.html">
+                    <img class="imagebook" source src="img\9781787011335.jpg" type="img"></a><br>
                     <p>9781787011335 <br>
-                    The solo travel handbook<br> <br>
+                    The Solo Travel Handbook<br> <br>
                     <abbr title="">Lonely Planet</abbr><br>
                     English <br>
                     14,04 € (euros) <br>
@@ -600,8 +634,9 @@
                     168 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781786578648.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781786578648.html">
+                    <img class="imagebook" source src="img\9781786578648.jpg" type="img"></a><br>
                     <p>9781786578648 <br>
                     Epic drives of the world (Lonely Planet)<br> <br>
                     <abbr title="">Oliver Berry</abbr><br>
@@ -611,8 +646,9 @@
                     328 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781788681292.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781788681292.html">
+                    <img class="imagebook" source src="img\9781788681292.jpg" type="img"></a><br>
                     <p>9781788681292 <br>
                     The Big Trip <br> <br> <br>
                     <abbr title="">Lonely Planet</abbr><br>
@@ -623,35 +659,38 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Thriller -->
+                <!-- Thriller -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Thriller / Mariana Enriquez</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788433998064.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788433998064.html">
+                    <img class="imagebook" source src="img\9788433998064.jpg" type="img"></a><br>
                     <p>9788433998064 <br>
                     Las cosas que perdimos en el fuego <br>
                     <abbr title="">Mariana Enriquez</abbr> <br>
                     Spanish <br>
-                    16,00 € (euros) <br>
+                    22,50 € (euros) <br>
                     2016 <br>
                     200 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788433998248.jpg" type="img"><br>
-                    <p>9788433937735 <br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788433998248.html">
+                    <img class="imagebook" source src="img\9788433998248.jpg" type="img"></a><br>
+                    <p>9788433998248 <br>
                     Los peligros de fumar en la cama <br>
                     <abbr title="">Mariana Enriquez</abbr> <br>
                     Spanish <br>
-                    16,05 € (euros) <br>
+                    21,60 € (euros) <br>
                     2018 <br>
                     208 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9788433998859.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9788433998859.html">
+                    <img class="imagebook" source src="img\9788433998859.jpg" type="img"></a><br>
                     <p>9788433998859 <br>
                     Nuestra parte de noche <br> <br>
                     <abbr title="">Mariana Enriquez</abbr> <br>
@@ -661,8 +700,9 @@
                     680 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780451495112.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780451495112.html">
+                    <img class="imagebook" source src="img\9780451495112.jpg" type="img"></a><br>
                     <p>9780451495112 <br>
                     Things we lost in the fire <br>  <br>
                     <abbr title="">Mariana Enriquez</abbr> <br>
@@ -673,13 +713,14 @@
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
                 </div>
-<!-- Young & Teen -->
+                <!-- Young & Teen -->
                 <div class="category-title">
                   <h4 class="text-white mt-3 mx-1">Young & Teen</h4>
                 </div>
                 <div class="row mt-3 mx-1 py-1 px-1">
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781250059314.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781250059314.html">
+                    <img class="imagebook" source src="img\9781250059314.jpg" type="img"></a><br>
                     <p>9781250059314 <br>
                     My True Love Gave to Me <br>
                     <abbr title="">Stephanie Perkins</abbr> <br>
@@ -689,8 +730,9 @@
                     336 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781444952773.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781444952773.html">
+                    <img class="imagebook" source src="img\9781444952773.jpg" type="img"></a><br>
                     <p>9781444952773 <br>
                     Heartstopper Volume Three <br>
                     <abbr title="">Alice Oseman</abbr> <br>
@@ -700,8 +742,9 @@
                     384 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9780008244125.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9780008244125.html">
+                    <img class="imagebook" source src="img\9780008244125.jpg" type="img"></a><br>
                     <p>9780008244125 <br>
                     Loveless <br> <br>
                     <abbr title="">Alice Oseman</abbr> <br>
@@ -711,8 +754,9 @@
                     320 pages <br></p>
                     <a href="#"><img class="addtocart ml-3" source src="img\AddToCart.png" type="img"></a><br>
                   </div>
-                  <div class="book-item col-3">
-                    <img class="imagebook" source src="img\9781409157250.jpg" type="img"><br>
+                  <div class="book-item book-item col-xs-6 col-sm-6 col-md-3 col-lg-3 col-xl-3">
+                    <a href="item9781409157250.html">
+                    <img class="imagebook" source src="img\9781409157250.jpg" type="img"></a><br>
                     <p>9781409157250 <br>
                     Eleanor & Park <br> <br>
                     <abbr title="">Rainbow Rowell</abbr> <br>
@@ -728,7 +772,7 @@
 
             </div><!-- /section-->
 
-            <div class="col-sm-4 sidebar">
+            <div class="sidebar d-sm-none d-md-block col-md-4 ">
               <div class="sidebar-module">
                 <h5>Covid Updates</h5>
                 <img src="img\covid19updates.png" class="imageaside">

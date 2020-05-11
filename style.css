@@ -151,3 +151,30 @@
 .btnfooter:hover{
   background: #84a882;
 }
+
+
+/* item style */
+.container-main-item{
+  background-color: #ffffff;
+}
+
+.imagebook2{
+  width: 298px;
+  height: 455px;
+}
+
+.logosize {
+  width: 26px;
+  height: 26px;
+}
+
+.btncheckout{
+  background: #ffd965;
+}
+
+.btncheckout:hover{
+  background: #ccad50;
+}
+.container-main-details{
+  background:#a699b0;
+}
